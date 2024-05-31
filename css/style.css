@@ -1,58 +1,94 @@
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+ *,
+ *::after,
+ *::before {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
 
-html {
-    font-size: 62.5%;
-}
+ html {
+     font-size: 62.5%;
+ }
 
-body {
-    font-family: "Arimo", "Karla", sans-serif;
-    min-height: 100vh;
-    width: 100%;
-    background: #fff;
-}
+ body {
+     font-family: "Arimo", "Karla", sans-serif;
+     min-height: 100vh;
+     width: 100%;
+     background: #fff;
+ }
 
-.logo {
-    width: 8rem;
-    height: 8rem;
-}
+ .logo {
+     width: 8rem;
+     height: 8rem; 
+ }
 
-/*Header*/
-.header {
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 4rem;
-    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.06);
-}
+ /*Header*/
+ .header {
+     background-color: #fff;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 4rem;
+     margin-bottom: -2rem;
+ }
 
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+ .navbar {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 2rem;
+ }
 
-.navbar li {
-    list-style: none;
-    padding: 0 2rem;
-}
+ .navbar li {
+     list-style: none;
+     padding: 0 2rem;
+ }
 
-.navbar li a {
-    text-decoration: none;
-    font-size: 1.4rem;
-    font-weight: 60;
-    color: rgba(0, 0, 0, 0.5);
-    transition: 0.3s ease;
-}
+ .navbar li a {
+     text-decoration: none;
+     font-size: 1.4rem;
+     color: rgba(0, 0, 0, 0.5);
+     transition: 0.3s ease;
+ }
 
-.navbar li a:hover{
-    text-decoration: underline;
-}
+ .navbar li a:hover {
+     text-decoration: underline;
+ }
 
-/*Home page*/
+ /*Home page*/
+
+ .hero {
+     background-image: url("/BO-WebShop/img/bg.webp");
+     height: 88vh;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+     padding: 0 8rem;
+ }
+
+ .hero_heading {
+     position: absolute;
+     top: 25%;
+     left: 15%;
+     max-width: 50%;
+ }
+
+ .hero_heading_H1 {
+     line-height: 4.4rem;
+     font-size: 2.8rem;
+     color: #ffffff;
+     font-weight: 600;
+     text-transform: uppercase;
+     margin-top: 5rem;
+     margin-bottom: 5.5rem;
+ }
+
+ .hero_heading_button {
+     display: inline-block;
+     text-align: center;
+     font-size: 1.4rem;
+     padding: 1rem 2rem;
+     line-height: 1.8rem;
+     text-transform: uppercase;
+     letter-spacing: 0.03rem;
+ }
