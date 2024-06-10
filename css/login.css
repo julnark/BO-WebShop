@@ -1,0 +1,444 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Arimo", "Karla", sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    background: #fff;
+    transition: 0.3s, color 0.3s;
+}
+
+.logo {
+    width: 8rem;
+    height: 8rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/*DM Header*/
+.DMHeader {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 2rem 4rem;
+    height: 2rem;
+    border-bottom: 0.1rem solid #ddd;
+}
+
+.DMHeaderNavBar {
+    display: flex;
+    margin-left: 120rem;
+}
+
+.DMHeaderNavBar li {
+    list-style: none;
+    padding: 0 2rem;
+}
+
+.DMHeaderNavBar li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease;
+    font-size: 1.2rem;
+}
+
+/*Header*/
+.header {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    margin-bottom: -2rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0 2rem;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+}
+
+/*MijnAccountHeader*/
+.MijnAccountHeader {
+    width: 100%;
+    padding: 1.5rem 0;
+    background: #212121;
+    color: #fff;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.MijnAccountContainer h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.MijnAccountDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.MijnAccountDiv>li {
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.MijnAccountDiv span {
+    margin-right: 1rem;
+}
+
+.MijnAccountDiv .material-symbols-outlined {
+    font-size: 1.5rem;
+    width: 0.5rem;
+    margin-right: 1rem;
+}
+
+/*Inloggen Section*/
+.InloggenSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 20rem;
+}
+
+.InlogBOX {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80rem;
+    gap: 8rem;
+}
+
+.Inlog {
+    width: 48%;
+}
+
+.InlogHeader h2 {
+    font-size: 2.5rem;
+    font-style: normal;
+    color: #000000;
+    line-height: 1.4rem;
+    margin-bottom: 2rem;
+    margin-left: -1rem;
+}
+
+.InlogHeader span {
+    font-size: 3rem;
+}
+
+.Inlog form p {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.Inlog label {
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    color: #1b1919;
+    font-weight: 400;
+}
+
+.Required {
+    font-size: 1.6rem;
+    color: #e01020;
+}
+
+.Inlog input {
+    margin-bottom: 2rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.text {
+    border: 0.1rem solid rgba(129, 129, 129, 0.25);
+}
+
+form a {
+    color: #3b3b3b;
+    font-style: none;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.Aanmelden {
+    text-transform: uppercase;
+    border: 0.1rem solid #000;
+    background-color: transparent;
+    color: #000;
+    letter-spacing: 0.05rem;
+}
+
+.Aanmelden:hover {
+    cursor: pointer;
+    background: #212121;
+    color: white;
+    transition: 0.4s;
+}
+
+.Registreer {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -3rem;
+}
+
+.Registreer h2 {
+    font-size: 2.5rem;
+    font-style: normal;
+    color: #000000;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.Registreer p {
+    font-size: 1.4rem;
+    color: #747070;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.Registreer button {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 0rem;
+    letter-spacing: 0.3;
+    width: 10rem;
+    margin-left: 13rem;
+    text-transform: uppercase;
+}
+
+.Registreer button:hover {
+    background-color: rgba(33, 33, 33, 0.8);
+}
+
+/*Footer*/
+footer {
+    background-color: #f5e6e1;
+    color: #000;
+    padding: 2rem 2rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 40rem;
+    margin-bottom: 2rem;
+}
+
+.footer-logo>img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.footer-newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-newsletter>h4 {
+    color: #000;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    float: left;
+    font-weight: 700;
+}
+
+.footer-newsletter>button {
+    background-color: #212121;
+    color: #ffffff;
+    border: none;
+    padding: 1rem 5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    float: left;
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+    letter-spacing: 0.1rem;
+}
+
+.EmailFooter {
+    display: flex;
+    border-bottom: 0.2rem solid rgba(177, 177, 177, 0.5);
+    margin-bottom: 2rem;
+    gap: 0.5rem;
+    padding: 0 5rem;
+    padding-left: 0;
+}
+
+.EmailFooter>span {
+    font-size: 1.8rem;
+    color: #949494;
+}
+
+.EmailFooter>input {
+    width: 100%;
+    background: transparent;
+    color: #9b9b9b;
+    border: 0;
+    outline: none;
+}
+
+.FooterSection {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 25rem;
+}
+
+.footer-section {
+    flex: 1 1 20%;
+}
+
+.footer-section h5 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.footer-section p {
+    font-size: 1.2rem;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 1rem;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .8);
+    transition: color 0.3s;
+    font-size: 1.2rem;
+}
+
+.footer-section ul li a:hover {
+    color: #333;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 1.4rem;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background: #333;
+    color: #fff;
+}
+
+.dark-mode .DMHeader {
+    background-color: #333;
+}
+
+.dark-mode .DMHeaderNavBar li a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.dark-mode .header {
+    background-color: #333;
+}
+
+.dark-mode .navbar li a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.dark-mode .hero_heading_H1 {
+    color: #fff;
+}
+
+.dark-mode h2,
+.dark-mode p,
+.dark-mode label,
+.dark-mode a {
+    color: #fff;
+}
+
+.dark-mode .Aanmelden {
+    background-color: #fff;
+    color: #000;
+}
+
+ /*Responsive*/
+ @media screen and (max-width:62.5rem) {
+    html {
+        width: 100%;
+        font-size: 55%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .DMHeaderNavBar {
+        margin-left: 60rem;
+    }
+
+    .header {
+        padding: 0;
+    }
+
+    .footer-container {
+        padding: 2rem;
+    }
+
+    .FooterSection {
+        padding: 0;
+    }
+}
+

@@ -90,7 +90,7 @@
  /*Home page*/
  .hero {
      background-image: url("/BO-WebShop/img/bg.webp");
-     height: 80vh;
+     height: 60rem;
      width: 100%;
      background-size: cover;
      background-position: center;
@@ -122,6 +122,7 @@
      line-height: 1.8rem;
      text-transform: uppercase;
      letter-spacing: 0.03rem;
+     border: none;
  }
 
  /*Feature Section*/
@@ -703,6 +704,7 @@
      display: flex;
      justify-content: center;
      width: 10rem;
+     letter-spacing: 0.1rem;
  }
 
  .EmailFooter {
@@ -802,3 +804,107 @@
  .dark-mode .hero_heading_H1 {
      color: #fff;
  }
+
+ /*Responsive*/
+ @media screen and (max-width:62.5rem) {
+     html {
+         width: 100%;
+         font-size: 55%;
+     }
+
+     .logo {
+         display: none;
+     }
+
+     .DMHeaderNavBar {
+         margin-left: 60rem;
+     }
+
+     .header {
+         padding: 0;
+     }
+
+     .hero {
+         height: 65rem;
+     }
+
+     .fe-box>img {
+         width: 20rem;
+         height: 20rem;
+     }
+
+     .actie {
+         padding: 0;
+     }
+
+     .product img {
+         width: 35rem;
+         height: 35rem;
+     }
+
+     .product button {
+         bottom: 35%;
+     }
+
+     .comfort_card {
+         width: 20rem;
+         height: 15rem;
+     }
+
+     .locatie {
+         gap: 3rem;
+         padding: 0 4rem;
+         margin-top: 2rem;
+     }
+
+     .locatie img {
+         width: 50rem;
+         height: 50rem;
+     }
+
+     .LocatieInfo h2 {
+         font-size: 5rem;
+     }
+
+     .LocatieInfo span {
+         font-size: 1.2rem;
+     }
+
+     .CollectieBox {
+         padding: 0;
+     }
+
+     .nieuweCollectie {
+         gap: 2rem;
+         padding: 4rem;
+     }
+
+     .nieuweCollectie img {
+         width: 30rem;
+         height: 40rem;
+         margin-bottom: 5rem;
+     }
+
+     .nieuweCollectie__info {
+         margin-top: -15rem;
+     }
+
+     .nieuwsBrief {
+         padding: 5rem;
+     }
+
+     .FeaturedCategoriesBox img {
+         width: 20rem;
+         height: 20rem;
+     }
+
+     .footer-container {
+         padding: 2rem;
+     }
+
+     .FooterSection {
+         padding: 0;
+     }
+ }
+
+ @media screen and (max-width: 32.5rem) {}
