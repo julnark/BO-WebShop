@@ -22,14 +22,14 @@
         <div>
             <ul class="DMHeaderNavBar">
                 <li><a href="#" id="darkModeToggle">Dark Mode</a></li>
-                <li><a href="">Over ons</a></li>
-                <li><a href="">Blog</a></li>
+                <li><a href="overons.html">Over ons</a></li>
+                <li><a href="blog.html">Blog</a></li>
             </ul>
         </div>
     </section>
 
     <section class="header">
-        <a href="index.html"> <img src="img/disney.webp" class="logo" alt="BedrijgsLogo voor Disney"></a>
+        <a href="#"> <img src="img/disney.webp" class="logo" alt="BedrijfsLogo voor Disney"></a>
         <div>
             <ul class="navbar">
                 <li><a href="index.html">Home</a></li>
@@ -40,9 +40,12 @@
                 <li><a href="gifts.html">Gifts</a></li>
                 <li><a href="charactersenmovies.html">Characters & Movies</a></li>
                 <li><a href="login.html">Login</a></li>
-                <li><a href="search.html"><span class="material-symbols-outlined">
-                            search
-                        </span></a></li>
+                <li>
+                    <div class="search-container" id="search-container">
+                        <input type="text" id="search-input" placeholder="Zoeken producten">
+                        <span class="material-symbols-outlined search-icon" onclick="toggleSearch()">search</span>
+                    </div>
+                </li>
                 <li><a href="shoppingcart.html"><span class="material-symbols-outlined">
                             shopping_bag
                         </span></a></li>
